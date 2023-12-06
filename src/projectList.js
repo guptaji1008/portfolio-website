@@ -52,7 +52,7 @@ const projectList = [
     ],
     imageUrl: "/project1.png",
     skillUsed: ["React,Material UI,React-router,Redux,React-redux"],
-    youtubeLink: "https://youtu.be/MiVgm8D508Q",
+    youtubeLink: "https://youtube.com/embed/MiVgm8D508Q",
     githubLink: {
       frontend: "https://github.com/guptaji1008/resume-builder.git",
     },
