@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import resume from '../Credential/myResume.pdf'
-import Meta from "../components/meta";
+import Meta from "../components/Meta";
 
 const Home = () => {
   return (

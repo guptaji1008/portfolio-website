@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { GiSpiralArrow } from "react-icons/gi";
 import mernCert from '../Credential/mernCert.pdf'
-import Meta from "../components/meta";
+import Meta from "../components/Meta";
 
 const Experience = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import Meta from "../components/meta";
+import Meta from "../components/Meta";
 
 const mySkills = [
   { type: "language", skill: "HTML 5", per: 90 },

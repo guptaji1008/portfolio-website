@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import { useNavigate } from 'react-router-dom'
 import projectList from '../projectList.js'
-import Meta from '../components/meta.jsx'
+import Meta from '../components/Meta.jsx'
 
 const Projects = () => {
   return (

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import projectList from "../projectList";
 import Navbar from "../components/Navbar";
-import Meta from "../components/meta";
+import Meta from "../components/Meta";
 
 const ProjectDetails = () => {
   const { id } = useParams();

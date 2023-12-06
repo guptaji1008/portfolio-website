@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Meta from '../components/meta'
+import Meta from '../components/Meta'
 
 const Contact = () => {
   return (
