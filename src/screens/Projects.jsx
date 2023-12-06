@@ -2,10 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import { useNavigate } from 'react-router-dom'
 import projectList from '../projectList.js'
+import Meta from '../components/meta.jsx'
 
 const Projects = () => {
   return (
     <div className='project-back-image'>
+      <Meta title="Project list" />
       <ProjectsContent className="min-h-screen flex flex-col space-y-5" />
     </div>
   )

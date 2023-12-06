@@ -2,10 +2,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { GiSpiralArrow } from "react-icons/gi";
 import mernCert from '../Credential/mernCert.pdf'
+import Meta from "../components/meta";
 
 const Experience = () => {
   return (
     <div className="exp-back-image">
+      <Meta title="Experience" />
         <div className="min-h-screen flex flex-col space-y-5">
         <Navbar activeLink="Exp" />
         <p className="text-white text-3xl font-bold text-center">

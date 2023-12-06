@@ -2,10 +2,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import resume from '../Credential/myResume.pdf'
+import Meta from "../components/meta";
 
 const Home = () => {
   return (
     <div className="home-back-image">
+      <Meta />
       <div className="min-h-screen flex flex-col justify-between">
         <Navbar activeLink="Home" />
         <div className="bg-transparent lg:px-40 px-10 py-2  flex flex-col items-center justify-center space-y-2">

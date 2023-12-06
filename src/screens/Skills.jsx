@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import Meta from "../components/meta";
 
 const mySkills = [
   { type: "language", skill: "HTML 5", per: 90 },
   { type: "language", skill: "CSS", per: 80 },
-  { type: "language", skill: "JavaScript", per: 95 },
+  { type: "language", skill: "JavaScript", per: 90 },
   { type: "language", skill: "TypeScript", per: 90 },
   { type: "language", skill: "Node", per: 80 },
   { type: "library", skill: "React", per: 90 },
@@ -21,6 +22,7 @@ const mySkills = [
 const Skills = () => {
   return (
     <div className="skill-back-image">
+      <Meta title="Skills" />
       <SkillsContent className="min-h-screen flex flex-col space-y-5" />
     </div>
   );

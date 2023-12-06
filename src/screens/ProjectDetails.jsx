@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import projectList from "../projectList";
 import Navbar from "../components/Navbar";
+import Meta from "../components/meta";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -18,6 +19,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="project-back-image">
+      <Meta title="Details" />
       <ProjectContent className="min-h-screen space-y-5" project={project} />
     </div>
   );

@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Meta from '../components/meta'
 
 const Contact = () => {
   return (
     <div className='contact-back-image'>
+      <Meta title="Contacts" />
       <div className='min-h-screen flex flex-col space-y-40'>
         <Navbar activeLink="Contact" />
         <div className='flex flex-col items-center space-y-6'>

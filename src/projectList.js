@@ -38,7 +38,7 @@ const projectList = [
       frontend: "https://github.com/guptaji1008/frondend.git",
       backend: "https://github.com/guptaji1008/backend.git",
     },
-    deployLink: "https://shopisz.netlify.app"
+    deployLink: "https://myportfoliowebdev.netlify.app"
   },
   {
     id: 3,
@@ -52,10 +52,9 @@ const projectList = [
     ],
     imageUrl: "/project1.png",
     skillUsed: ["React,Material UI,React-router,Redux,React-redux"],
-    youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
+    youtubeLink: "https://youtu.be/MiVgm8D508Q",
     githubLink: {
-      frontend: "https://github.com/guptaji1008/frondend.git",
-      backend: "https://github.com/guptaji1008/backend.git",
+      frontend: "https://github.com/guptaji1008/resume-builder.git",
     },
     deployLink: "https://myresumerz.netlify.app"
   },
