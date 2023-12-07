@@ -14,7 +14,7 @@ const projectList = [
       "This web application is perfectly responsive ie, suitable for any device.",
     ],
     imageUrl: "/project1.png",
-    skillUsed: ["Mongodb,Express,React,Bootstrap,Redux-toolkit,React-redux"],
+    skillUsed: ["Mongodb","Express","React","Bootstrap","Redux-toolkit","React-redux"],
     youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
     githubLink: {
       frontend: "https://github.com/guptaji1008/frondend.git",
@@ -24,6 +24,24 @@ const projectList = [
   },
   {
     id: 2,
+    name: "Book Movie",
+    about: [
+      "This is a project with MERN technologies.",
+      "Basically this is a backend project made with express, mongodb to just test skills",
+      "One can book movie, seat type, no. of seats.",
+      "One can watch history on booking."
+    ],
+    imageUrl: "/project2.png",
+    skillUsed: ["Mongodb","Express","React","Mongoose"],
+    youtubeLink: "https://youtube.com/embed/fN4-OvyVApo",
+    githubLink: {
+      frontend: "https://github.com/guptaji1008/client.git",
+      backend: "https://github.com/guptaji1008/server.git",
+    },
+    deployLink: "https://bookmoviez.netlify.app"
+  },
+  {
+    id: 3,
     name: "PORTFOLIO",
     about: [
       "This is a front end project, made with React (a JavaScript library).",
@@ -31,8 +49,8 @@ const projectList = [
       "Used React router for easy navigation.",
       "This web application is perfectly responsive ie, suitable for any device.",
     ],
-    imageUrl: "/project1.png",
-    skillUsed: ["React,React-router,Tailwind CSS"],
+    imageUrl: "/project3.png",
+    skillUsed: ["React","React-router","Tailwind CSS"],
     youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
     githubLink: {
       frontend: "https://github.com/guptaji1008/frondend.git",
@@ -41,7 +59,7 @@ const projectList = [
     deployLink: "https://myportfoliowebdev.netlify.app"
   },
   {
-    id: 3,
+    id: 4,
     name: "RESUMER'Z",
     about: [
       "This is a front end project, made with React (a JavaScript library).",
@@ -50,31 +68,11 @@ const projectList = [
       "Used Redux and React-redux for global state management.",
       "After completion, one can preview and can download his/her resume.",
     ],
-    imageUrl: "/project1.png",
-    skillUsed: ["React,Material UI,React-router,Redux,React-redux"],
+    imageUrl: "/project4.png",
+    skillUsed: ["React","Material UI","React-router","Redux","React-redux"],
     youtubeLink: "https://youtube.com/embed/MiVgm8D508Q",
     githubLink: {
       frontend: "https://github.com/guptaji1008/resume-builder.git",
-    },
-    deployLink: "https://myresumerz.netlify.app"
-  },
-  {
-    id: 4,
-    name: "NEWS APP",
-    about: [
-      "This is a front end project, made with React (a JavaScript library).",
-      "Used Bootstrap for designing the UI.",
-      "Used React router for easy navigation.",
-      "Used an API from news website to fetch top news.",
-      "Have different sections for type of news.",
-      "This web application is perfectly responsive ie, suitable for any device.",
-    ],
-    imageUrl: "/project1.png",
-    skillUsed: ["React,Bootstrap"],
-    youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
-    githubLink: {
-      frontend: "https://github.com/guptaji1008/frondend.git",
-      backend: "https://github.com/guptaji1008/backend.git",
     },
     deployLink: "https://myresumerz.netlify.app"
   },
