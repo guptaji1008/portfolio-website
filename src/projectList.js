@@ -51,10 +51,9 @@ const projectList = [
     ],
     imageUrl: "/project3.png",
     skillUsed: ["React","React-router","Tailwind CSS"],
-    youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
+    youtubeLink: "https://www.youtube.com/embed/o3TnaFMiTd4",
     githubLink: {
-      frontend: "https://github.com/guptaji1008/frondend.git",
-      backend: "https://github.com/guptaji1008/backend.git",
+      frontend: "https://github.com/guptaji1008/portfolio-website.git",
     },
     deployLink: "https://myportfoliowebdev.netlify.app"
   },
