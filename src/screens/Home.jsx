@@ -18,7 +18,7 @@ const Home = () => {
             Node) technogies.
           </p>
           <div className="flex items-center justify-center pb-5">
-            <a href={resume} className='bg-pink-600 text-2xl py-3 px-5 text-white rounded-xl' target="_blank">Show Credentials</a>
+            <a href={resume} className='bg-pink-600 text-2xl py-3 px-5 text-white rounded-xl' target="_blank">Download Resume</a>
           </div>
         </div>
         <Footer className="py-3" />

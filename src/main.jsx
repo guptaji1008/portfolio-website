@@ -9,6 +9,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <HelmetProvider>
     <Router>
       <App />
-    </Router>,
+    </Router>
   </HelmetProvider>
 )
