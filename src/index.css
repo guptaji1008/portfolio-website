@@ -5,6 +5,25 @@
     font-family: 'Outfit', sans-serif;
 }
 
+.animate-scale {
+  transform-origin: 0% 0%;
+  animation: scale 0.5s
+}
+
+.animate-scale-reverse {
+  transform-origin: 0% 0%;
+  animation: scale 0.2s reverse forwards; 
+}
+
+@keyframes scale {
+  0% {
+      transform: scaleY(0)
+  }
+  100% {
+      transform: scaleY(3)
+  }
+}
+
 .home-back-image {
   background-image: url("/home1.avif");
   background-repeat: no-repeat;

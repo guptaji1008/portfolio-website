@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Meta from '../components/Meta'
 
 const About = () => {
   return (
     <div className="about-back-image">
+      <Meta title="About Aman" />
       <div className='min-h-screen flex flex-col space-y-7'>
         <Navbar activeLink="About" />
         <p className='text-3xl text-white text-center font-bold mt-5 mb-6'>ABOUT ME</p>

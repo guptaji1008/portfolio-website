@@ -41,7 +41,7 @@ const Navbar = ({ activeLink }) => {
           <button type="button" className="flex items-center justify-center" onClick={() => setToggle(!toggle)}>
             {!toggle ? <GiHamburgerMenu className="mr-5 text-2xl text-gray-300 hover:text-white transition" /> : <IoMdClose className="mr-5 text-2xl text-gray-300 hover:text-white transition" />}
           </button>
-          <div className={!toggle ? 'hidden' : 'bg-transparent absolute top-12 right-4 py-2 px-4 flex flex-col items-center space-y-2 rounded-xl z-10'}>
+          <div className={!toggle ? 'hidden' : 'bg-transparent lg:backdrop-blur-lg backdrop-blur-3xl lg:shadow-2xl shadow-xl lg:shadow-gray-800 shadow-gray-700 absolute top-14 right-4 py-2 px-4 flex flex-col items-center space-y-2 rounded-xl z-10'}>
             <p className="list-none text-lg" onClick={() => setActive("Home")}>
                 <Link className={active === "Home" ? 'text-white' : 'text-gray-300 hover:text-white transition'} to="/">Home</Link>
             </p>

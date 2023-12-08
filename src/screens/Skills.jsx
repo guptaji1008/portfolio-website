@@ -76,9 +76,9 @@ const SkillsContent = ({ className }) => {
 
 const ProgressBar = ({ skill, percent }) => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex md:flex-row flex-col md:items-center items-start md:justify-between md:space-y-0 space-y-1">
       <p className="text-xl text-white">{skill}</p>
-      <div class="w-[17rem] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+      <div class="md:w-[17rem] w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
         <div
           class="bg-blue-400 h-2.5 rounded-full transition-effect"
           style={{ width: `${percent}%` }}
