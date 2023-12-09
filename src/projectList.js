@@ -15,7 +15,7 @@ const projectList = [
     ],
     imageUrl: "/project1.png",
     skillUsed: ["Mongodb","Express","React","Bootstrap","Redux-toolkit","React-redux"],
-    youtubeLink: "https://www.youtube.com/embed/NKOD-UDxpcE",
+    youtubeLink: "https://youtube.com/embed/1K1qN7gctng",
     githubLink: {
       frontend: "https://github.com/guptaji1008/frondend.git",
       backend: "https://github.com/guptaji1008/backend.git",
