@@ -41,7 +41,7 @@ const projectList = [
       "Used concept of debounce in JavaScript on live searches.",
       "Integrated AI concept as for movie recommendation.",
     ],
-    imageUrl: "/project1.png",
+    imageUrl: "/project5.png",
     skillUsed: [
       "Firebase",
       "Redux",
