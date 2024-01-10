@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import resume from '../Credential/myResume.pdf'
+import resume from '../Credential/MyResume2.pdf'
 import Meta from "../components/Meta";
 
 const Home = () => {
