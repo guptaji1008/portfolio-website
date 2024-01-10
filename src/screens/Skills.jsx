@@ -16,7 +16,7 @@ const mySkills = [
   { type: "framework", skill: "Mongoose", per: 90 },
   { type: "framework", skill: "Bootstrap", per: 80 },
   { type: "framework", skill: "Tailwind CSS", per: 80 },
-  { type: "framework", skill: "Next", per: 60 },
+  { type: "framework", skill: "Next", per: 80 },
 ];
 
 const Skills = () => {

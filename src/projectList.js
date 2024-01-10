@@ -14,34 +14,71 @@ const projectList = [
       "This web application is perfectly responsive ie, suitable for any device.",
     ],
     imageUrl: "/project1.png",
-    skillUsed: ["Mongodb","Express","React","Bootstrap","Redux-toolkit","React-redux"],
+    skillUsed: [
+      "Mongodb",
+      "Express",
+      "React",
+      "Bootstrap",
+      "Redux-toolkit",
+      "React-redux",
+    ],
     youtubeLink: "https://youtube.com/embed/1K1qN7gctng",
     githubLink: {
       frontend: "https://github.com/guptaji1008/frondend.git",
       backend: "https://github.com/guptaji1008/backend.git",
     },
-    deployLink: "https://shopisz.netlify.app"
+    deployLink: "https://shopisz.netlify.app",
   },
   {
     id: 2,
+    name: "GPTFLIX",
+    about: [
+      "This is a Netflix clone website with some specification.",
+      "Used React.js as a JavaScript library.",
+      "Used firebase for authentication purpose.",
+      "Used Redux-toolkit for state management and redux-query for data fetching.",
+      "Used TMDB apis for movie data fetching.",
+      "Used concept of debounce in JavaScript on live searches.",
+      "Integrated AI concept as for movie recommendation.",
+    ],
+    imageUrl: "/project1.png",
+    skillUsed: [
+      "Firebase",
+      "Redux",
+      "React Router",
+      "React Hooks",
+      "HTML5",
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Cascading Style Sheets (CSS)",
+    ],
+    youtubeLink: "https://youtube.com/embed/3PJjM6fHmnk",
+    githubLink: {
+      frontend: "https://github.com/guptaji1008/gpt-flix.git",
+    },
+    deployLink: "https://gptflix-1d120.web.app",
+  },
+  {
+    id: 3,
     name: "Book Movie",
     about: [
       "This is a project with MERN technologies.",
       "Basically this is a backend project made with express, mongodb to just test skills",
       "One can book movie, seat type, no. of seats.",
-      "One can watch history on booking."
+      "One can watch history on booking.",
     ],
     imageUrl: "/project2.png",
-    skillUsed: ["Mongodb","Express","React","Mongoose"],
+    skillUsed: ["Mongodb", "Express", "React", "Mongoose"],
     youtubeLink: "https://youtube.com/embed/fN4-OvyVApo",
     githubLink: {
       frontend: "https://github.com/guptaji1008/client.git",
       backend: "https://github.com/guptaji1008/server.git",
     },
-    deployLink: "https://bookmoviez.netlify.app"
+    deployLink: "https://bookmoviez.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     name: "PORTFOLIO",
     about: [
       "This is a front end project, made with React (a JavaScript library).",
@@ -50,15 +87,15 @@ const projectList = [
       "This web application is perfectly responsive ie, suitable for any device.",
     ],
     imageUrl: "/project3.png",
-    skillUsed: ["React","React-router","Tailwind CSS"],
+    skillUsed: ["React", "React-router", "Tailwind CSS"],
     youtubeLink: "https://www.youtube.com/embed/o3TnaFMiTd4",
     githubLink: {
       frontend: "https://github.com/guptaji1008/portfolio-website.git",
     },
-    deployLink: "https://myportfoliowebdev.netlify.app"
+    deployLink: "https://myportfoliowebdev.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     name: "RESUMER'Z",
     about: [
       "This is a front end project, made with React (a JavaScript library).",
@@ -68,12 +105,12 @@ const projectList = [
       "After completion, one can preview and can download his/her resume.",
     ],
     imageUrl: "/project4.png",
-    skillUsed: ["React","Material UI","React-router","Redux","React-redux"],
+    skillUsed: ["React", "Material UI", "React-router", "Redux", "React-redux"],
     youtubeLink: "https://youtube.com/embed/MiVgm8D508Q",
     githubLink: {
       frontend: "https://github.com/guptaji1008/resume-builder.git",
     },
-    deployLink: "https://myresumerz.netlify.app"
+    deployLink: "https://myresumerz.netlify.app",
   },
 ];
 
