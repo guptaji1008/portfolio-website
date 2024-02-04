@@ -57,7 +57,7 @@ const projectList = [
     githubLink: {
       frontend: "https://github.com/guptaji1008/gpt-flix.git",
     },
-    deployLink: "https://gptflix-1d120.web.app",
+    deployLink: " https://gptflix001.netlify.app",
   },
   {
     id: 3,
